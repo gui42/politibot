@@ -1,7 +1,8 @@
 import requests
 
+
 class ApiController(object):
-    url = ''
+    url = ""
     # def __init__(self):
     #     self.name = ''
 
@@ -10,6 +11,7 @@ class ApiController(object):
 
     def getUrl(self):
         return self.url
+
 
 teste = ApiController()
 str = "https://dadosabertos.camara.leg.br/api/v2/deputados?ordem=ASC&ordenarPor=nome"
